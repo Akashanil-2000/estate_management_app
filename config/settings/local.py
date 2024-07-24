@@ -22,7 +22,7 @@ SECRET_KEY = getenv(
     "iU7D5TiGGe_rMR1Tewb5QwwpRlHC758Z-FqTsdke89sIeWrwkcE"
 )
 
-# SECURITY WARNING: don't run with debug turned on in production!
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8080"]
 
 
 ALLOWED_HOSTS = ["localhost","127.0.01"]
